@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Golos+Text&family=Montserrat&family=PT+Sans:ital@1&family=Sono:wght@600&display=swap"
+    rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  
+
+  <link rel="stylesheet" href="./assets/style.css">
+
+
+
+  <title>Document</title>
+</head>
+
+<body class="bg-light">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand home" href="#">
+        <span style="font-size: 3rem; font-weight: bold; color: #2b2525;">PORT</span><span
+          style="font-size: 3rem; font-weight: lighter; color: #ec1e1e;">FOLIO</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active home" aria-current="page" href="#firstPage">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link aboutme" href="#aboutmePage">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#">Contact Me</a>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container maincontent " id="firstPage">
+    <div class="row">
+      <div class="col-sm-6 col-12 align-items-end rounded order-sm-1 order-2">
+        <p class="animated-text">I am a <span>developer</span>, <span>designer</span>, and <span>problem solver</span>.
+        </p>
+        <section class="home" id="home">
+          <div class="home-content">
+            <h3 class="h3"> Hello, its me</h3>
+            <h1 class="h1"> Renjith Rajakumar</h1>
+            <p>A full stack developer with experience in building web applications using technologies.I have a passion
+              for building dynamic and interactive websites and applications, and I am constantly learning new
+              technologies to stay up-to-date in the ever-evolving world of web development.</p>
+            </p>
+
+            <div class="social-media ">
+              <a href="https://www.facebook.com/renjithkumar.cool"><i class='bx bxl-facebook-circle'></i></a>
+              <a href="https://www.linkedin.com/in/renjith-rajakumar-109a4051/"><i class='bx bxl-linkedin'></i></a>
+              <a href="https://github.com/Renjithkumar993"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <a href="./Renjith_Rajakumar_Resume_F.pdf" class="btn btn-primary mt-5">Download CV</a>
+          </div>
+        </section>
+      </div>
+    
+
+      <div class="col-sm-6 col-12 rounded text-center order-sm-2 order-1">
+        <div class="gallery ">
+          <img src="./assets/pic1.jpg" alt="">
+          <img src="./assets/pic2.jpg" alt=>
+          <img src="./assets/pic3.jpg" alt="">
+          <img src="./assets/profilepic.png">
+        </div>
+
+        <div class="header mt-5 topworksanimate animated-text">
+          <h1>Top Works</h1>
+        </div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active ">
+              <img src="./assets/application functionality.gif"  class="d-block w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/MovieBuff.gif" class="d-block w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/Code Quiz.gif" class="d-block w-100 rounded" alt="...">
+            </div>
+          </div>
+        </div>
+</div>
+      </div>
+      </div>
+      
+  <ul class="nav nav-tabs justify-content-evenly mainlist p-4" id="aboutmePage">
+    <li class="aboutmesection"><a href="#aboutme" data-toggle="tab">About me</a></li>
+    <li class="headinglink"><a href="#education" data-toggle="tab">Education</a></li>
+    <li class="headinglink"><a href="#experience" data-toggle="tab">Experience</a></li>
+    <li class="headinglink"><a href="#work" data-toggle="tab">Work</a></li>
+  </ul>
+
+
+  <!-- <div class="col-sm-6 mx-auto">
+    <img class="img-fluid rounded-circle profileimage" src="./profilepic.png" alt="Your Name">
+  </div> -->
+  <div class="tab-content">
+    <div class="col-sm-8 col-10 mx-auto tab-pane aboutmesec justify-content-center active mt-5" id="aboutme">
+      <h1 class="h1 headings">About Me</h1>
+        <p class="mt-5 h5 lh-base">I am currently enrolled in the University of New Brunswick and transitioning into a
+          career in full-stack
+          development and have been learning various front-end and back-end technologies. My current focus is on
+          building my skills in HTML/CSS/Git, JavaScript, Bootstrap, The DOM, APIs, JQuery, JSON, AJAX, team
+          collaboration, Agile development, and project demonstration.
+          I am also learning Node, ES6, object-oriented programming, Express, MySQL, the MVC paradigm, Sequelize,
+          Progressive Web Apps, React, NoSQL, MERN Stack, and computer science fundamentals to building a solid
+          foundation in full-stack development.</br></br>
+          In my previous role, I was a highly experienced IT professional with over 7 years of experience. My expertise
+          included managing and maintaining the System Center Configuration Manager (SCCM), Azure, Exchange, and
+          Security. I have experience working with clients in all industries, from small businesses to large
+          enterprises, to
+          ensure their technology needs are met. I am also highly qualified in the security field, having obtained
+          Cybersecurity certifications such as CHFI (Computer Hacking Forensic Investigator), CEH (certified ethical
+          hacker), and Microsoft Certified: Azure Security Engineer Associate.
+          Despite my experience in IT, I have found that my passion lies in full-stack development, and I am excited to
+          explore new opportunities in this field.
+        </p>
+         
+        <h4 class="mt-5 animateinAboutme">Thank you for taking the time to read a little bit about me. I'm excited...</h4>
+
+    </div>
+
+    <div class="tab-pane col-sm-6  col-10 mx-auto tab-pane mt-5" id="education">
+      <h2 class="h1 headings">Education</h2>
+      <ul class="h5 lh-base mt-3">
+        <li>Bachelor of computer application, Computer Programming, Specific
+          Applications
+          Bharathiar University</li>
+        <li>PG Diploma in Information Technology Professional, Network and System
+          Administration/Administrator
+          Lambton college
+        </li>
+        <li>UNB Coding Bootcamp
+          University of NewBrunswick</li>
+      </ul>
+      </br>
+      </br>
+      <h2 class="h1 headings ">Certifications</h2>
+      <ul class="h5 lh-base mt-3">
+        <li>CompTIA Project+ Certification - CompTIA</li>
+        <li>Microsoft Certified: Azure Security Engineer Associate - Microsoft
+        </li>
+        <li>Certified Ethical Hacker (CEH) - EC-Council</li>
+        <li>Computer Hacking Forensic Investigator (CHFI) - EC-Council</li>
+      </ul>
+    </div>
+
+    <div class="tab-pane col-sm-6 col-10 mx-auto tab-pane justify-content-center mt-5 " id="experience">
+      <h2 class="h1 headings">Experience</h2>
+      <ul class="h5 lh-base mt-3">
+        <li>Infrastructure Application Analyst, Government of NewBrunswick (4 years)</li>
+        <li>Technical Operator, Government of NewBrunswick (1 year)</li>
+        <li>Information Technology Support Analyst(1 year)</li>
+        <li>Technical Support Specialist(1 year)</li>
+        <li>Technical Support Specialist(1 year)</li>
+      </ul>
+    </div>
+
+
+
+    <div class="tab-pane mb-4 " id=work>
+      <div class=" d-flex row justify-content-center ">
+
+        <div class="card m-5 " style="width: 25rem;">
+          <img src="./assets/MovieBuff.gif" class="card-img-top" alt="...">
+          <div class="card-body d-flex flex-column justify-content-between align-self-center">
+            <h5 class="card-title">Movie Buff - Find Your Favourite Movies</h5>
+            <p class="card-text">
+              This application is intended for lovers of film who want to learn more about their favourite movies and
+              where they can watch them. Powered by the TMDB API, Watchmode API, News API, and featuring styling from
+              the Bulma CSS framework, this app is designed as a one-stop-shop for all things movie and film-related
+              media.</p>
+            <a href="https://renjithkumar993.github.io/MovieBuff/" class="btn btn-primary">Link to website</a>
+          </div>
+        </div>
+
+        <div class="card m-5 " style="width: 25rem;">
+          <img src="./assets/application functionality.gif" class="card-img-top" alt="...">
+          <div class="card-body d-flex flex-column justify-content-between align-self-center">
+            <h5 class="card-title">Canada-Weather-5Day-Forcast-Dashboard</h5>
+            <p class="card-text">The Weather Dashboard web application allows users to search for the current and future
+              weather conditions for multiple cities. This application utilizes the OpenWeather API to retrieve weather
+              data and presents the data in an easy-to-understand format. The application was created with the intention
+              of helping travelers plan their trips by providing them with accurate weather information for their
+              destination cities.</p>
+            <a href="https://renjithkumar993.github.io/Canada-Weather-5Day-Forcast-Dashboard/" class="btn btn-primary">Link to website</a>
+          </div>
+        </div>
+
+        <div class="card m-5 " style="width: 25rem;">
+          <img src="./assets/Code Quiz.gif" class="card-img-top" alt="...">
+          <div class="card-body d-flex flex-column justify-content-between align-self-center">
+            <h5 class="card-title">Quiz-game</h5>
+            <p class="card-text">
+              A JavaScript quiz application that tests users on their knowledge of JavaScript fundamentals. The game is
+              dynamic and timed, with questions presented one by one and time subtracted for incorrect answers. Users
+              can save their initials and score to compete with others</p>
+            <a href="https://renjithkumar993.github.io/Quiz-game/" class="btn btn-primary">Link to website</a>
+          </div>
+        </div>
+
+
+        <div class="card m-5 " style="width: 25rem;">
+          <img src="./assets/Work Day Scheduler.gif" class="card-img-top" alt="...">
+          <div class="card-body d-flex flex-column justify-content-between align-self-center">
+            <h5 class="card-title">Work Day Scheduler</h5>
+            <p class="card-text">
+              A simple Work Day Scheduler calendar application built with HTML, CSS, and JavaScript. It allows users to
+              manage their daily schedule by adding events for each hour of the day, features dynamic HTML and CSS, and
+              saves events using local storage.</p>
+            <a href="https://renjithkumar993.github.io/Work-Day-Scheduler/" class="btn btn-primary">Link to website</a>
+          </div>
+        </div>
+
+
+
+
+        <div class="card m-5 " style="width: 25rem;">
+          <img src="./assets/password.png" class="card-img-top" alt="...">
+          <div class="card-body d-flex flex-column justify-content-between align-self-center">
+            <h5 class="card-title">Secure-password-generator</h5>
+            <p class="card-text">
+              This project is to generate secure passwords that meet certain criteria. It provides a simple interface
+              for users to select the length of the password and the types of characters to include, such as lowercase,
+              uppercase, numeric, and special characters.</p>
+            <a href="https://renjithkumar993.github.io/Secure-password-generator/" class="btn btn-primary">Link to website</a>
+          </div>
+        </div>
+
+
+        <div class="card m-5 " style="width: 25rem;">
+          <img src="./assets/website function.gif" class="card-img-top" alt="...">
+          <div class="card-body d-flex flex-column justify-content-between align-self-center">
+            <h5 class="card-title">Halifax-Canoe-and-Kayak</h5>
+            <p class="card-text">
+              This is a project to create a fully functional website for Halifax Canoe and Kayak using HTML, CSS, and
+              jQuery.</p>
+            <a href="https://github.com/Renjithkumar993/Halifax-Canoe-and-Kayak" class="btn btn-primary">Link to website</a>
+          </div>
+        </div>
+
+        <div class="card m-5 " style="width: 25rem;">
+          <img src="./Renjith Portfolio.gif" class="card-img-top" alt="...">
+          <div class="card-body d-flex flex-column justify-content-between align-self-center">
+            <h5 class="card-title">Personal-portfolio</h5>
+            <p class="card-text">
+              This project is a portfolio website for to showcase My work samples to potential employers. The website
+              will feature the name, a recent photo or avatar, and links to sections about me, my work, and how to
+              contact me.</p>
+            <a href="https://renjithkumar993.github.io/Personal-portfolio/" class="btn btn-primary">Link to website</a>
+          </div>
+        </div>
+
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Contact Me</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary mt-4">Submit</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+  <script src="./assets/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</body>
+
+</html>
