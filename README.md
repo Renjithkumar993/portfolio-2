@@ -2,15 +2,15 @@
 
 This project is a professional portfolio website that showcases your work and skills using HTML, CSS, Bootstrap, and jQuery. This portfolio website will help you stand out from the crowd and attract potential clients or employers.
 
-Technologies Used
+## Technologies Used
 This project is built using the following technologies:
 
-HTML
-CSS
-Bootstrap
-jQuery
+* HTML
+* CSS
+* Bootstrap
+* jQuery
 
-Features
+## Features
 This professional portfolio website includes the following features:
 
 Responsive design: The website is responsive and adjusts to different screen sizes, making it accessible on desktops, tablets, and mobile devices.
@@ -20,11 +20,11 @@ Portfolio section: The website includes a portfolio section that showcases my wo
 Contact section: The website includes a contact form that allows users to send me a message and includes your email address and social media links.
 jQuery animations: The website includes jQuery animations that make the website more engaging and interactive.
 
-How to Use
+## Usage
 
 To access the website please visit : https://renjithkumar993.github.io/portfolio-2/
 
-Credits
+## Credits
 
 The following resources were used to create this project:
 
@@ -32,6 +32,6 @@ Bootstrap documentation: https://getbootstrap.com/docs/
 jQuery documentation: https://api.jquery.com/
 Font Awesome icons: https://fontawesome.com/
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
