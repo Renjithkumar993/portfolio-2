@@ -1,6 +1,6 @@
 # portfolio-2
 
-This project is a professional portfolio website that showcases your work and skills using HTML, CSS, Bootstrap, and jQuery. This portfolio website will help you stand out from the crowd and attract potential clients or employers.
+This project is a professional portfolio website that showcases my work and skills using HTML, CSS, Bootstrap, and jQuery. This portfolio website will help you stand out from the crowd and attract potential clients or employers.
 
 ## Technologies Used
 This project is built using the following technologies:
