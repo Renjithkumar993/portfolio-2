@@ -28,9 +28,9 @@ To access the website please visit : https://renjithkumar993.github.io/portfolio
 
 The following resources were used to create this project:
 
-Bootstrap documentation: https://getbootstrap.com/docs/
-jQuery documentation: https://api.jquery.com/
-Font Awesome icons: https://fontawesome.com/
+* Bootstrap documentation: https://getbootstrap.com/docs/
+* jQuery documentation: https://api.jquery.com/
+* Font Awesome icons: https://fontawesome.com/
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
